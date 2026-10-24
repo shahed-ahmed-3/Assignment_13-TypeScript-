@@ -1,0 +1,13 @@
+Relationships Identification:
+
+1. Inheritance:
+   - Admin inherits from User (Admin extends User).
+
+2. Composition:
+   - NoteBook and Note (A NoteBook is composed of multiple Notes, and their lifecycle depends on the NoteBook).
+
+3. Aggregation:
+   - User and NoteBook (A User can own multiple NoteBooks, but NoteBooks can exist independently).
+
+4. Association:
+   - Note and User (Each Note is associated with a User who is the author).
